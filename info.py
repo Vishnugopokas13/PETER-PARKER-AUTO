@@ -102,7 +102,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1001905405868")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
-JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
+JOIN_REQS_DB = environ.get("JOIN_REQS_DB", "mongodb+srv://v:v@cluster0.zznxusa.mongodb.net/?retryWrites=true&w=majority")
 
 #No_result
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', True))
