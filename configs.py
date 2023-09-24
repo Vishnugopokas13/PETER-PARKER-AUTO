@@ -5,7 +5,7 @@ class Config:
     API_HASH = getenv("API_HASH", "abcdefg")
     DATABASE_URI = getenv("DATABASE_URI", "")
     DATABASE_NAME = getenv("DATABASE_NAME", "")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
+    BOT_TOKEN = getenv("BOT_TOKEN", "6018095007:AAGyqzN8_07omGbxMNxYTc5PMhjfkUVFx9Y")
     SUDO = list(map(int, getenv("ADMINS").split()))
                        
 cfg = Config()
