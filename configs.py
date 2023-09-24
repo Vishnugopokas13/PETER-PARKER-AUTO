@@ -5,5 +5,6 @@ class Config:
     API_HASH = getenv("API_HASH", "abcdefg")
     DATABASE_URI = getenv("DATABASE_URI", "")
     DATABASE_NAME = getenv("DATABASE_NAME", "")
-    
+    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
+                       
 cfg = Config()
