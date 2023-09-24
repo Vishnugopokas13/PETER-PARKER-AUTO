@@ -6,5 +6,6 @@ class Config:
     DATABASE_URI = getenv("DATABASE_URI", "")
     DATABASE_NAME = getenv("DATABASE_NAME", "")
     BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
+    SUDO = list(map(int, getenv("ADMINS").split()))
                        
 cfg = Config()
